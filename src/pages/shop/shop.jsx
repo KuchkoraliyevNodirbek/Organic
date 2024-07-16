@@ -1,5 +1,9 @@
 import React from "react";
-
+import { Banner } from "./components/banner";
 export const Shop = () => {
-  return <div>Shop</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 };

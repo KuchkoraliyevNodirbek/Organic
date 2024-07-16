@@ -12,7 +12,7 @@ export const Navbar = () => {
           <Logo />
         </Link>
       </div>
-      <div className="links flex space-x-6">
+      <div className="links flex space-x-6 gap-[50px]">
         <Link to="/" className="text-gray-800 hover:text-primary">
           Home
         </Link>
@@ -22,12 +22,12 @@ export const Navbar = () => {
         <Link to="/shop" className="text-gray-800 hover:text-primary">
           Shop
         </Link>
-        <Link to="/shop-single" className="text-gray-800 hover:text-primary">
+        {/* <Link to="/shop-single" className="text-gray-800 hover:text-primary">
           ShopSingle
-        </Link>
-        <Link to="/prduct-detail" className="text-gray-800 hover:text-primary">
+        </Link> */}
+        {/* <Link to="/prduct-detail" className="text-gray-800 hover:text-primary">
           ProductDetail
-        </Link>
+        </Link> */}
       </div>
       <div className="korzinka flex space-x-4">
         <button>

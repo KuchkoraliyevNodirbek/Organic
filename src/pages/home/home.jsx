@@ -3,6 +3,9 @@ import Img1 from "../../assets/banner-img/1.png";
 import Img2 from "../../assets/banner-img/2.png";
 import { AboutUs } from "../../components/About-us/about-us";
 import { ProductData } from "../../components/productData";
+import { Offer } from "../../components/offer/offerProduct";
+import { News } from "../../components/newDiscover";
+import { Footer } from "../../components/footer/footer";
 
 export const Home = () => {
   return (
@@ -29,7 +32,10 @@ export const Home = () => {
         </div>
       </div>
       <AboutUs />
-      <ProductData />a
+      <ProductData />
+      <Offer />
+      <News />
+      <Footer />
     </>
   );
 };
